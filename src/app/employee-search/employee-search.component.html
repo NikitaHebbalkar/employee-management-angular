@@ -1,0 +1,7 @@
+<h2>Search Employees</h2>
+<input type="text" [(ngModel)]="searchTerm" placeholder="Search by name or email" />
+<button (click)="onSearch()">Search</button>
+
+<div *ngFor="let employee of employees">
+  <p>{{ employee.name }} - {{ employee.email }}</p>
+</div>

@@ -1,0 +1,7 @@
+<h2>Filter Employees</h2>
+<input type="text" [(ngModel)]="filterTerm" placeholder="Filter by name or email" />
+<button (click)="onFilter()">Filter</button>
+
+<div *ngFor="let employee of employees">
+  <p>{{ employee.name }} - {{ employee.email }}</p>
+</div>

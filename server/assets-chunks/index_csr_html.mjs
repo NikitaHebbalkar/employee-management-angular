@@ -3,7 +3,7 @@ export default `<!DOCTYPE html>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <base href="/"> 
+  <base href="https://NikitaHebbalkar.github.io/employee-management-angular/"> 
   <title>Employee Management</title>
 <link rel="stylesheet" href="styles-5INURTSO.css"></head>
 <body ngcm="">
